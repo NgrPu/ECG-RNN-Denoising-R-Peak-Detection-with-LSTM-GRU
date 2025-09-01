@@ -21,7 +21,7 @@ ECG signals are inherently noisy. The goals of this project are:
 
 ## 📂 Dataset
 
-We assume access to an ECG dataset (e.g., MIT-BIH Arrhythmia Database).  
+We assume access to an ECG dataset .  
 
 - Signals are preprocessed into windows of fixed size.  
 - Gaussian noise with `σ = 0.05` is added to create noisy versions.  
@@ -73,7 +73,7 @@ processed/ # augmented and windowed signals
 
 
 ecg-rnn-denoise-rpeak/
-├── Q2-Code.ipynb # Main notebook (LSTM + GRU models)
+├── main.ipynb # Main notebook (LSTM + GRU models)
 ├── README.md # Documentation
 ├── requirements.txt # Dependencies
 ├── data/
